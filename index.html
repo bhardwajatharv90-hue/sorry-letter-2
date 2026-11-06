@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#160f2b" />
+  <title>A Little Love Story 💌</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+  <main>
+    <section class="intro" id="intro">
+      <div class="eyebrow">A tiny surprise, just for you</div>
+      <h1>Someone has a letter<br><em>for you...</em></h1>
+      <p class="intro-copy">A little story is waiting on the other side.</p>
+
+      <div class="envelope-wrap" id="envelopeWrap">
+        <div class="envelope" id="envelope">
+          <div class="letter-preview"><span>For you</span><b>♡</b></div>
+          <div class="envelope-back"></div>
+          <div class="envelope-front"></div>
+          <div class="envelope-flap"></div>
+          <div class="wax-seal">♥</div>
+        </div>
+      </div>
+
+      <div class="unlock">
+        <label for="unlockSlider">Slide to open your letter</label>
+        <div class="slider-shell">
+          <div class="slider-track" id="sliderTrack"></div>
+          <span class="slider-hint" id="sliderHint">Drag the heart all the way →</span>
+          <input id="unlockSlider" type="range" min="0" max="100" value="0" aria-label="Slide to unlock the letter" />
+          <span class="slider-heart" id="sliderHeart">♥</span>
+        </div>
+      </div>
+      <p class="tiny-note">Made with a little extra courage and a lot of heart.</p>
+    </section>
+
+    <section class="story hidden" id="story">
+      <div class="story-top">
+        <span class="chapter">CHAPTER 01 · THE BEGINNING</span>
+        <span class="tiny-heart">♡</span>
+      </div>
+      <h2>Somehow, it was always<br><em>you.</em></h2>
+      <!-- EDIT THIS: short intro paragraph below the story heading -->
+      <p class="story-lead">Two little hearts. One unexpected story.</p>
+
+
+      <div class="wake-card" id="wakeCard">
+        <p class="wake-kicker">BEFORE THE STORY BEGINS</p>
+        <h3>Shhh... Atharv is sleeping 😴</h3>
+        <!-- EDIT THIS: sleepy scene paragraph -->
+        <p class="wake-copy" id="wakeCopy">Someone needs to wake him up. Give him a gentle tap!</p>
+        <div class="sleep-stage" id="sleepStage">
+          <div class="bed-headboard"></div><div class="bed-mattress"></div>
+          <div class="zzz zzz-one">Z</div><div class="zzz zzz-two">z</div><div class="zzz zzz-three">z</div>
+          <div class="sleeping-boy" id="sleepingBoy">
+            <div class="sleep-hair"></div>
+            <div class="sleep-face">
+              <span class="closed-eye eye-a"></span><span class="closed-eye eye-b"></span>
+              <span class="sleep-blush blush-a"></span><span class="sleep-blush blush-b"></span>
+              <span class="sleep-mouth"></span>
+            </div>
+            <div class="sleep-neck"></div>
+            <div class="sleep-shirt"><span>♥</span></div>
+            <div class="sleep-arm"></div>
+            <div class="sleep-pillow"></div>
+          </div>
+          <div class="tap-burst" id="tapBurst">✦ ✦ ✦</div>
+          <div class="ayushi-waker" id="ayushiWaker" aria-label="Ayushi waking Atharv">
+            <div class="waker-hair"></div>
+            <div class="waker-face"><i></i><i></i><b></b></div>
+            <div class="waker-body"></div>
+            <div class="waker-arm"></div>
+            <span class="waker-name">Ayushi</span>
+          </div>
+        </div>
+        <button class="wake-button" id="wakeButton">👋 Slap & wake Atharv</button>
+        <p class="wake-result" id="wakeResult" aria-live="polite"></p>
+      </div>
+
+      <div class="scene">
+        <div class="moon"></div>
+        <div class="cloud cloud-one"></div><div class="cloud cloud-two"></div>
+        <div class="sparkle s1">✦</div><div class="sparkle s2">✧</div><div class="sparkle s3">✦</div>
+        <div class="character character-boy">
+          <div class="shadow"></div>
+          <div class="hair"></div><div class="face"><i class="eye left"></i><i class="eye right"></i><i class="blush left"></i><i class="blush right"></i><i class="smile"></i></div>
+          <div class="neck"></div><div class="body"><span class="shirt-heart">♥</span></div>
+          <div class="arm arm-left"></div><div class="arm arm-right"></div>
+          <div class="leg leg-left"></div><div class="leg leg-right"></div>
+        </div>
+        <div class="character character-girl">
+          <div class="character-name girl-name">Ayushi</div>
+          <div class="shadow"></div>
+          <div class="hair"></div><div class="face"><i class="eye left"></i><i class="eye right"></i><i class="blush left"></i><i class="blush right"></i><i class="smile"></i></div>
+          <div class="neck"></div><div class="body"><span class="shirt-heart">♥</span></div>
+          <div class="arm arm-left"></div><div class="arm arm-right"></div>
+          <div class="leg leg-left"></div><div class="leg leg-right"></div>
+          <div class="bow">♥</div>
+        </div>
+        <div class="ground"></div>
+        <div class="floating-heart h1">♥</div><div class="floating-heart h2">♥</div><div class="floating-heart h3">♥</div>
+      </div>
+
+      <div class="letter-card">
+        <div class="letter-stamp">♡</div>
+        <p class="letter-kicker">A NOTE FROM THE HEART</p>
+        <h3>To my favourite person, Ayushi,</h3>
+        <!-- EDIT THIS: letter paragraph 1 -->
+        <p>Ayu mera baby, sorrrru. Mai so jaata huin, but baby ab se nahi hoga. Sorryyy betu, gussa nahi hona plssssss. I love you bohot saara. Ab aapse bina baat kiye nahi sounga mai. Please maaf kar do betu. ❤️</p>
+        <!-- EDIT THIS: letter paragraph 2 -->
+        <p>Baby, maine bola tha na—Ayushi ke bina Atharv nahi hai. Mai Ayushi ke bina imagine bhi nahi kar sakta. Jaise Radha-Krishna hain, ab Ayushi-Atharv hain. Aapka aur mera naam ek saath jud gaya hai. Ab alag hona nahi hai. Sorrrryyy, I love you. Happy 6 months of relationship, betuuuuuuu! ❤️</p>
+        <p class="signoff">With all my heart, <span>♡</span></p>
+      </div>
+      <button class="again-button" id="againButton">Read it again ↗</button>
+      <footer>THE END? <span>♡</span> JUST THE BEGINNING.</footer>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
